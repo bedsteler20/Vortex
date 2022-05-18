@@ -250,6 +250,7 @@
       "type": "build-copy",
       "name": "modtype-umm",
       "path": "extensions/modtype-umm",
+      "condition": "process.platform === 'win32'",
       "removeModules": ["vortex-api"],
       "sources": ["src/**/*.ts", "src/**/*.tsx", "*.json", "webpack.config.js"],
       "copyTo": "{BUILD_DIR}/bundledPlugins/modtype-umm"
