@@ -3072,10 +3072,10 @@ async@*, async@^3.2.2, async@^3.2.3:
   resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
   integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
 
-async@^2.6.2:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
-  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+async@^2.6.4:
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
+  integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
     lodash "^4.17.14"
 
@@ -4284,7 +4284,7 @@ crash-dump@Nexus-Mods/node-crash-dump:
   resolved "https://codeload.github.com/Nexus-Mods/node-crash-dump/tar.gz/9e887da1e44eebaa378c859833cfb05b1109e828"
   dependencies:
     autogypi "^0.2.2"
-    minimist "^1.2.3"
+    minimist "^1.2.6"
     node-addon-api "^4.0.0"
     node-gyp "^6.0.1"
 
@@ -5192,9 +5192,9 @@ electron-updater@^4.2.0:
     semver "^7.3.5"
 
 electron@^16.2.1:
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-16.2.4.tgz#4e4c72a615b37570fcc38b74b2bcbab585a42575"
-  integrity sha512-A40aU+gh41EtyspwEBMSuy5KBB56Z8OYSDsqZK9Y8nJdVIFKDtp824x/jnU7N6zNnzVil6oDIFBMGp/hkFu6FQ==
+  version "16.2.7"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-16.2.7.tgz#945e35ad1625e604f10c124fb912d1e2b3018317"
+  integrity sha512-aZKF3b00+rqW/HGs8lJM5DhPNj+mOfCuhLSiFXV6J9dQCIRhctJTmToOrwXfbCxvXK8as8eQTNl5uSfnHmH6tA==
   dependencies:
     "@electron/get" "^1.13.0"
     "@types/node" "^14.6.2"
@@ -5835,9 +5835,9 @@ fn.name@1.x.x:
   resolved "https://registry.yarnpkg.com/fn.name/-/fn.name-1.1.0.tgz#26cad8017967aea8731bc42961d04a3d5988accc"
   integrity sha512-GRnmB5gPyJpAhTQdSZTSp9uaPSvl09KoYcMQtsB9rQoOmzs9dH6ffeccH+Z+cv6P68Hu5bC6JjRh4Ah/mHSNRw==
 
-fomod-installer@Nexus-Mods/fomod-installer:
+fomod-installer@bedsteler20/fomod-installer#linux:
   version "0.5.24"
-  resolved "https://codeload.github.com/Nexus-Mods/fomod-installer/tar.gz/2a3c4acc1ae141f75a53075ad17a4f59fe6fdcca"
+  resolved "https://codeload.github.com/bedsteler20/fomod-installer/tar.gz/e20b92b43302ff971bc6f64d9aae13d4f7e0ccae"
   dependencies:
     async "^3.2.2"
     copyfiles "*"
@@ -6248,7 +6248,7 @@ harmony-patcher@Nexus-Mods/harmony-patcher:
   version "0.3.3"
   resolved "https://codeload.github.com/Nexus-Mods/harmony-patcher/tar.gz/2b3ea371f73a6f7c99babdb92d8d839617612896"
   dependencies:
-    async "^2.6.2"
+    async "^2.6.4"
     copyfiles "^1.0.0"
     msbuild "1.1.2"
 
@@ -6477,9 +6477,9 @@ i18next@^19.0.0, i18next@^19.0.1:
   dependencies:
     "@babel/runtime" "^7.12.0"
 
-icon-extract@Nexus-Mods/node-icon-extract:
+icon-extract@bedsteler20/node-icon-extract#linux_dummy:
   version "1.1.0"
-  resolved "https://codeload.github.com/Nexus-Mods/node-icon-extract/tar.gz/53e7a724a4387c70b4ae01dde3bd1041274f07c9"
+  resolved "https://codeload.github.com/bedsteler20/node-icon-extract/tar.gz/6fdf72744abd5e9c8840c15bb4a5c951a5646e42"
   dependencies:
     autogypi "^0.2.2"
     node-addon-api "*"
@@ -6596,6 +6596,11 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
+
+ini@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-3.0.0.tgz#2f6de95006923aa75feed8894f5686165adc08f1"
+  integrity sha512-TxYQaeNW/N8ymDvwAxPyRbhMBtnEwuvaTYpOQkFx1nSeusgezHniEc/l35Vo4iCq/mMiTJbpD7oYxN98hFlfmw==
 
 inline-style-parser@0.1.1:
   version "0.1.1"
@@ -11802,20 +11807,21 @@ vortex-api@Nexus-Mods/vortex-api:
   version "1.5.1-r3"
   resolved "https://codeload.github.com/Nexus-Mods/vortex-api/tar.gz/ebf37c6b9585f377b005c9202df30c2e0fb02d4b"
 
-vortex-parse-ini@Nexus-Mods/vortex-parse-ini:
-  version "0.2.6"
-  resolved "https://codeload.github.com/Nexus-Mods/vortex-parse-ini/tar.gz/de7875be747428b5d140824238c28217d9ee3f11"
+vortex-parse-ini@bedsteler20/vortex-parse-ini#add/alternate-ini-parser:
+  version "0.2.9"
+  resolved "https://codeload.github.com/bedsteler20/vortex-parse-ini/tar.gz/75b1e0d37b8f5a0bf4c073b7ae46a86644f79fc2"
   dependencies:
-    bluebird "^3.5.0"
+    bluebird "^3.7.2"
+    ini "^3.0.0"
     lodash "^4.17.21"
     winapi-bindings Nexus-Mods/node-winapi-bindings
 
 "vortex-run@file:src/util/vortex-run":
   version "0.0.13"
 
-vortexmt@Nexus-Mods/node-vortexmt:
+vortexmt@bedsteler20/node-vortexmt:
   version "0.2.4"
-  resolved "https://codeload.github.com/Nexus-Mods/node-vortexmt/tar.gz/2a74a7ecd2c128b39c23e04c7616b125db0b6783"
+  resolved "https://codeload.github.com/bedsteler20/node-vortexmt/tar.gz/422e0344d57df9f95c461de576a72779e89e8667"
   dependencies:
     autogypi "^0.2.2"
     node-addon-api "^3.1.0"
